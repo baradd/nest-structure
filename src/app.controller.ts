@@ -4,6 +4,6 @@ import { Get, Controller, Param } from "@nestjs/common"
 export class AppController {
     @Get(":id")
     async seyHello() {
-        return "Hi nest"
+        return "Hi Nest Application"
     }
 }
